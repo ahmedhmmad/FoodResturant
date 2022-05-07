@@ -1,0 +1,39 @@
+header {
+  background-image: url("../../assets/3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 270px 0 150px;
+  background-size: cover;
+  font-family: Roboto, sans-serif;
+}
+header h2 {
+  color: #43121d;
+  margin: 0px 0px 25px;
+  font-size: 58px;
+  letter-spacing: 0;
+  font-weight: 600;
+  /* width: 80%; */
+}
+header p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #555555;
+  padding: 0 0 13px;
+}
+button {
+  background-color: #a82d49;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 1s ease;
+  /* Capital letter */
+  text-transform: uppercase;
+  margin: 0 20px 0 20px !important;
+}
+button:hover {
+  background-color: transparent;
+  color: #a82d49;
+}
