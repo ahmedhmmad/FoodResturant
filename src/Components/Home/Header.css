@@ -1,0 +1,55 @@
+header {
+  background-image: url("../../assets/3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 50px 0 150px;
+  background-size: cover;
+  font-family: Roboto, sans-serif;
+  overflow: hidden;
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+}
+header h2 {
+  color: #43121d;
+  margin: 0px 0px 25px;
+  font-size: 58px;
+  letter-spacing: 0;
+  font-weight: 600;
+  /* width: 80%; */
+}
+header p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #555555;
+  padding: 0 0 13px;
+}
+button {
+  background-color: #a82d49;
+  color: #fff;
+  border: none;
+  padding: 10px 26px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+  /* Capital letter */
+  text-transform: uppercase;
+  margin: 0 20px 0 20px !important;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 5px #000;
+}
+button:last-of-type {
+  background-color: #fff;
+  color: #a82d49;
+  border: 1px solid #a82d49;
+}
+button:hover {
+  background-color: transparent;
+  color: #a82d49;
+}
+button:last-of-type:hover {
+  background-color: #a82d49;
+  color: #fff;
+  border: none;
+}
